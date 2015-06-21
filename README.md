@@ -16,7 +16,7 @@ Available on Ansible Galaxy : https://galaxy.ansible.com/list#/roles/3116
      connection: local
      sudo: false
      roles:
-      - jdauphant.ssh-config
+      - ssh-config
 ```
 # Notes
 - You need to gather_facts of your hosts before the run the role in local
