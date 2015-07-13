@@ -4,3 +4,4 @@ ssh_config_home: "{{ ansible_env.HOME|default('/home/'+ansible_user_id) }}"
 ssh_config_group: "{{ssh_config_user}}"
 ssh_config_order: 20
 ssh_config_hosts: "{{groups.all}}"
+host_key_checking: false # todo: isn't this defined?? dznt wrk "{{ansible_host_key_checking}}"

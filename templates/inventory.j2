@@ -15,3 +15,7 @@ Host {{hostvars[item].inventory_hostname_short}}
 {% if hostvars[item].ansible_ssh_proxy_command is defined %}ProxyCommand {{hostvars[item].ansible_ssh_proxy_command}}
 {% endif %}
 {% endif %}
+Host *
+{% if host_key_checking == true %}StrictHostKeyChecking yes
+{% else %}StrictHostKeyChecking no
+{% endif %}
