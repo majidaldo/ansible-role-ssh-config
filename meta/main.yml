@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: "Julien DAUPHANT"
+  author: "Majid ALDOSARI" #<-mod original->"Julien DAUPHANT"
   license: BSD
   min_ansible_version: 1.5
   #
